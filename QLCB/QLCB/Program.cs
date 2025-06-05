@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using QLCB.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,25 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Add localization services
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+builder.Services.AddMvc()
+    .AddViewLocalization()
+    .AddDataAnnotationsLocalization();
+
+// Add authentication
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+        options.AccessDeniedPath = "/Account/AccessDenied";
+        options.Cookie.Name = "QLCB.Auth";
+        options.Cookie.HttpOnly = true;
+        options.ExpireTimeSpan = TimeSpan.FromDays(7);
+        options.SlidingExpiration = true;
+    });
 
 var app = builder.Build();
 
@@ -19,11 +40,26 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Configure localization
+var supportedCultures = new[]
+{
+    new CultureInfo("vi-VN"),
+    new CultureInfo("en-US")
+};
+
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture("vi-VN"),
+    SupportedCultures = supportedCultures,
+    SupportedUICultures = supportedCultures
+});
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

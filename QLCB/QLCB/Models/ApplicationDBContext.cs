@@ -3,59 +3,69 @@ using Microsoft.Identity.Client;
 
 namespace QLCB.Models
 {
-    public class ApplicationDBContext :DbContext
+    public class ApplicationDBContext : DbContext
     {
-        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options){
-
+        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base(options)
+        {
         }
+
         public DbSet<MayBay> MayBays { get; set; }
         public DbSet<NhanVien> NhanViens { get; set; }
         public DbSet<SanBay> SanBays { get; set; }
-
         public DbSet<ChuyenBay> ChuyenBays { get; set; }
-		public DbSet<VeBay> VeBays { get; set; }
-		public DbSet<HanhKhach> HanhKhachs { get; set; }
-		public DbSet<ChungNhan> ChungNhans { get; set; }
-		public DbSet<PhanCong> PhanCongs { get; set; }
+        public DbSet<VeBay> VeBays { get; set; }
+        public DbSet<HanhKhach> HanhKhachs { get; set; }
+        public DbSet<ChungNhan> ChungNhans { get; set; }
+        public DbSet<PhanCong> PhanCongs { get; set; }
+        public DbSet<User> Users { get; set; }
 
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
-		{
-			// Config bảng SanBay
-			modelBuilder.Entity<SanBay>()
-				.HasKey(sb => sb.MaSanBay);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
-			modelBuilder.Entity<SanBay>()
-				.HasMany(sb => sb.ChuyenBaysDi)
-				.WithOne(cb => cb.SanBayDi)
-				.HasForeignKey(cb => cb.MaSanBayDi)
-				.OnDelete(DeleteBehavior.Restrict);  // Tắt cascade xóa
+            // Config bảng SanBay
+            modelBuilder.Entity<SanBay>()
+                .HasKey(sb => sb.MaSanBay);
 
-			modelBuilder.Entity<SanBay>()
-				.HasMany(sb => sb.ChuyenBaysDen)
-				.WithOne(cb => cb.SanBayDen)
-				.HasForeignKey(cb => cb.MaSanBayDen)
-				.OnDelete(DeleteBehavior.Restrict);  // Tắt cascade xóa
+            modelBuilder.Entity<SanBay>()
+                .HasMany(sb => sb.ChuyenBaysDi)
+                .WithOne(cb => cb.SanBayDi)
+                .HasForeignKey(cb => cb.MaSanBayDi)
+                .OnDelete(DeleteBehavior.Restrict);
 
-			// Config bảng MayBay
-			modelBuilder.Entity<MayBay>()
-				.HasKey(mb => mb.MaMayBay);
+            modelBuilder.Entity<SanBay>()
+                .HasMany(sb => sb.ChuyenBaysDen)
+                .WithOne(cb => cb.SanBayDen)
+                .HasForeignKey(cb => cb.MaSanBayDen)
+                .OnDelete(DeleteBehavior.Restrict);
 
-			modelBuilder.Entity<MayBay>()
-				.HasMany(mb => mb.ChuyenBays)
-				.WithOne(cb => cb.MayBay)
-				.HasForeignKey(cb => cb.MaMayBay)
-				.OnDelete(DeleteBehavior.Cascade); // Có thể giữ cascade xóa nếu muốn
+            // Config bảng MayBay
+            modelBuilder.Entity<MayBay>()
+                .HasKey(mb => mb.MaMayBay);
 
-			// Config bảng ChuyenBay
-			modelBuilder.Entity<ChuyenBay>()
-				.HasKey(cb => cb.MaChuyenBay);
+            modelBuilder.Entity<MayBay>()
+                .HasMany(mb => mb.ChuyenBays)
+                .WithOne(cb => cb.MayBay)
+                .HasForeignKey(cb => cb.MaMayBay)
+                .OnDelete(DeleteBehavior.Cascade);
 
-			// Config bảng VeBay nếu cần thêm
-			modelBuilder.Entity<VeBay>()
-				.Property(v => v.GiaVe)
-				.HasColumnType("decimal(18,2)");
+            // Config bảng ChuyenBay
+            modelBuilder.Entity<ChuyenBay>()
+                .HasKey(cb => cb.MaChuyenBay);
 
-			base.OnModelCreating(modelBuilder);
-		}
-	}
+            // Config bảng VeBay
+            modelBuilder.Entity<VeBay>()
+                .Property(v => v.GiaVe)
+                .HasColumnType("decimal(18,2)");
+
+            // Config bảng User
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Email)
+                .IsUnique();
+
+            modelBuilder.Entity<User>()
+                .HasIndex(u => u.Username)
+                .IsUnique();
+        }
+    }
 }
