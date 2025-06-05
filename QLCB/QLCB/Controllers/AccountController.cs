@@ -1,10 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
 using QLCB.Models;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using System.Security.Cryptography;
-using System.Text;
+using QLCB.ViewModels;
+using System.Threading.Tasks;
 
 namespace QLCB.Controllers
 {
@@ -17,117 +16,69 @@ namespace QLCB.Controllers
             _context = context;
         }
 
-        // GET: /Account/Login
-        public IActionResult Login()
-        {
-            if (User?.Identity?.IsAuthenticated == true)
-            {
-                return RedirectToAction("Index", "Home");
-            }
-            return View();
-        }
-
-        // POST: /Account/Login
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(string username, string password)
-        {
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
-            {
-                ModelState.AddModelError("", "Vui lòng nhập đầy đủ thông tin");
-                return View();
-            }
-
-            var hashedPassword = HashPassword(password);
-            var user = _context.Users.FirstOrDefault(u => u.Username == username && u.Password == hashedPassword);
-
-            if (user == null)
-            {
-                ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu không đúng");
-                return View();
-            }
-
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.Email, user.Email),
-                new Claim("FullName", user.FullName)
-            };
-
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var authProperties = new AuthenticationProperties
-            {
-                IsPersistent = true,
-                ExpiresUtc = DateTimeOffset.UtcNow.AddDays(7)
-            };
-
-            await HttpContext.SignInAsync(
-                CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(claimsIdentity),
-                authProperties);
-
-            return RedirectToAction("Index", "Home");
-        }
-
-        // GET: /Account/Register
+        [HttpGet]
         public IActionResult Register()
         {
-            if (User?.Identity?.IsAuthenticated == true)
-            {
-                return RedirectToAction("Index", "Home");
-            }
             return View();
         }
 
-        // POST: /Account/Register
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(User user)
+        public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                if (_context.Users.Any(u => u.Username == user.Username))
+                if (await _context.HanhKhachs.AnyAsync(u => u.Email == model.Email))
                 {
-                    ModelState.AddModelError("Username", "Tên đăng nhập đã tồn tại");
-                    return View(user);
+                    ModelState.AddModelError("Email", "Email đã được đăng ký.");
+                    return View(model);
                 }
 
-                if (_context.Users.Any(u => u.Email == user.Email))
+                var newUser = new HanhKhach
                 {
-                    ModelState.AddModelError("Email", "Email đã được sử dụng");
-                    return View(user);
-                }
+                    HoTen = model.HoTen,
+                    SoDienThoai = model.SoDienThoai,
+                    Email = model.Email,
+                    CMND = model.CMND,
+                    Password = BCrypt.Net.BCrypt.HashPassword(model.Password)
+                };
 
-                user.Password = HashPassword(user.Password);
-                user.CreatedAt = DateTime.Now;
-
-                _context.Add(user);
+                _context.HanhKhachs.Add(newUser);
                 await _context.SaveChangesAsync();
 
-                // Tự động đăng nhập sau khi đăng ký
-                await Login(user.Username, user.Password);
-
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login");
             }
-            return View(user);
+            return View(model);
         }
 
-        // POST: /Account/Logout
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Logout()
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
+            if (ModelState.IsValid)
+            {
+                var user = await _context.HanhKhachs.FirstOrDefaultAsync(u => u.Email == model.Email);
+                if (user != null && BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
+                {
+                    HttpContext.Session.SetString("UserEmail", user.Email);
+                    HttpContext.Session.SetString("UserName", user.HoTen);
+                    return RedirectToAction("Index", "Home");
+                }
+
+                ModelState.AddModelError("", "Email hoặc mật khẩu không đúng.");
+            }
+            return View(model);
         }
 
-        private string HashPassword(string password)
+        [HttpPost]
+        public IActionResult Logout()
         {
-            using (var sha256 = SHA256.Create())
-            {
-                var hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-                return Convert.ToBase64String(hashedBytes);
-            }
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login");
         }
     }
-} 
+}

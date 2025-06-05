@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace QLCB.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,11 +15,13 @@ namespace QLCB.Migrations
                 name: "HanhKhachs",
                 columns: table => new
                 {
-                    MaHanhKhach = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    HoTen = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SoDienThoai = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CMND = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    MaHanhKhach = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    HoTen = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    SoDienThoai = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    CMND = table.Column<string>(type: "nvarchar(12)", maxLength: 12, nullable: false),
+                    Password = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -161,7 +163,7 @@ namespace QLCB.Migrations
                     NgayDatVe = table.Column<DateTime>(type: "datetime2", nullable: false),
                     GiaVe = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     ChuyenBayMaChuyenBay = table.Column<string>(type: "nvarchar(5)", nullable: true),
-                    HanhKhachMaHanhKhach = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    HanhKhachMaHanhKhach = table.Column<int>(type: "int", nullable: false),
                     MaNhanVien = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     NhanVienMaNhanVien = table.Column<string>(type: "nvarchar(5)", nullable: true),
                     MaSanBayDi = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -192,7 +194,8 @@ namespace QLCB.Migrations
                         name: "FK_VeBays_HanhKhachs_HanhKhachMaHanhKhach",
                         column: x => x.HanhKhachMaHanhKhach,
                         principalTable: "HanhKhachs",
-                        principalColumn: "MaHanhKhach");
+                        principalColumn: "MaHanhKhach",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_VeBays_MayBays_MayBayMaMayBay",
                         column: x => x.MayBayMaMayBay,

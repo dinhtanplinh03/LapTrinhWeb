@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Client;
 
 namespace QLCB.Models
 {
@@ -17,7 +16,6 @@ namespace QLCB.Models
         public DbSet<HanhKhach> HanhKhachs { get; set; }
         public DbSet<ChungNhan> ChungNhans { get; set; }
         public DbSet<PhanCong> PhanCongs { get; set; }
-        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -58,14 +56,34 @@ namespace QLCB.Models
                 .Property(v => v.GiaVe)
                 .HasColumnType("decimal(18,2)");
 
-            // Config bảng User
-            modelBuilder.Entity<User>()
-                .HasIndex(u => u.Email)
-                .IsUnique();
+            // Config bảng HanhKhach
+            modelBuilder.Entity<HanhKhach>()
+                .HasKey(hk => hk.MaHanhKhach);
 
-            modelBuilder.Entity<User>()
-                .HasIndex(u => u.Username)
-                .IsUnique();
+            modelBuilder.Entity<HanhKhach>()
+                .Property(hk => hk.Email)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            modelBuilder.Entity<HanhKhach>()
+                .Property(hk => hk.Password)
+                .IsRequired()
+                .HasMaxLength(255); // Đặt chiều dài tối đa hợp lý cho mật khẩu mã hóa
+
+            modelBuilder.Entity<HanhKhach>()
+                .Property(hk => hk.HoTen)
+                .IsRequired()
+                .HasMaxLength(200);
+
+            modelBuilder.Entity<HanhKhach>()
+                .Property(hk => hk.SoDienThoai)
+                .IsRequired()
+                .HasMaxLength(15);
+
+            modelBuilder.Entity<HanhKhach>()
+                .Property(hk => hk.CMND)
+                .IsRequired()
+                .HasMaxLength(12);
         }
     }
 }

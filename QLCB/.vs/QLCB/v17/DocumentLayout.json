@@ -1,37 +1,92 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\phuon\\source\\repos\\QLCB\\",
+  "WorkspaceRootPath": "E:\\QLCB\\QLCB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531080510_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250531080510_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\hanhkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\hanhkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\migrations\\20250605130651_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\migrations\\20250605130651_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130439_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250605130439_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130122_InitNew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250605130122_InitNew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130002_UpdateHanhKhachIdToInt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250605130002_UpdateHanhKhachIdToInt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605122135_UpdateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250605122135_UpdateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\vebay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\vebay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\vebay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\chuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\qlcb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\qlcb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\chuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\chuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\maybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\maybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\maybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250531075832_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|e:\\qlcb\\qlcb\\qlcb\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,101 +97,270 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250531080510_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531080510_Initial.cs",
-              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250531080510_Initial.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531080510_Initial.cs",
-              "RelativeToolTip": "QLCB\\Migrations\\20250531080510_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:05:10.733Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VeBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\VeBay.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\VeBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\VeBay.cs",
-              "RelativeToolTip": "QLCB\\Models\\VeBay.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Title": "20250605130651_Init.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130651_Init.cs",
+              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250605130651_Init.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130651_Init.cs",
+              "RelativeToolTip": "QLCB\\Migrations\\20250605130651_Init.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:04:13.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T13:06:51.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250605130122_InitNew.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130122_InitNew.cs",
+              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250605130122_InitNew.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130122_InitNew.cs",
+              "RelativeToolTip": "QLCB\\Migrations\\20250605130122_InitNew.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:01:22.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250605130002_UpdateHanhKhachIdToInt.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130002_UpdateHanhKhachIdToInt.cs",
+              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250605130002_UpdateHanhKhachIdToInt.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130002_UpdateHanhKhachIdToInt.cs",
+              "RelativeToolTip": "QLCB\\Migrations\\20250605130002_UpdateHanhKhachIdToInt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:00:02.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\LoginViewModel.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "QLCB\\Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:06:01.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T12:05:58.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T12:05:56.487Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "20250531075832_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs",
-              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250531075832_Initial.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs",
-              "RelativeToolTip": "QLCB\\Migrations\\20250531075832_Initial.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Program.cs",
+              "RelativeDocumentMoniker": "QLCB\\Program.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Program.cs",
+              "RelativeToolTip": "QLCB\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwFEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:58:32.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T12:04:50.328Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
-              "RelativeToolTip": "QLCB\\Models\\ApplicationDBContext.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvzoAAAADAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QLCB\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QLCB\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAADwv1QAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:56:53.769Z",
+              "WhenOpened": "2025-06-05T12:01:44.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HanhKhach.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\HanhKhach.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\HanhKhach.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\HanhKhach.cs",
+              "RelativeToolTip": "QLCB\\Models\\HanhKhach.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:07:23.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ChuyenBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ChuyenBay.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\ChuyenBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ChuyenBay.cs",
-              "RelativeToolTip": "QLCB\\Models\\ChuyenBay.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvysAAAACAAAAAAAAAA==",
+              "Title": "20250605130439_Init.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130439_Init.cs",
+              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250605130439_Init.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605130439_Init.cs",
+              "RelativeToolTip": "QLCB\\Migrations\\20250605130439_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:19:21.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T13:04:39.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SanBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\SanBay.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\SanBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\SanBay.cs",
-              "RelativeToolTip": "QLCB\\Models\\SanBay.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:17:14.134Z",
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\appsettings.json",
+              "RelativeDocumentMoniker": "QLCB\\appsettings.json",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\appsettings.json",
+              "RelativeToolTip": "QLCB\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T12:17:13.699Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T12:24:41.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250605122135_UpdateDatabase.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605122135_UpdateDatabase.cs",
+              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250605122135_UpdateDatabase.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Migrations\\20250605122135_UpdateDatabase.cs",
+              "RelativeToolTip": "QLCB\\Migrations\\20250605122135_UpdateDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:21:35.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\RegisterViewModel.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "QLCB\\Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:06:04.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QLCB.csproj",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\QLCB.csproj",
+              "RelativeDocumentMoniker": "QLCB\\QLCB.csproj",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\QLCB.csproj",
+              "RelativeToolTip": "QLCB\\QLCB.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T11:59:45.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VeBay.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\VeBay.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\VeBay.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\VeBay.cs",
+              "RelativeToolTip": "QLCB\\Models\\VeBay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T08:04:13.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250531075832_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs",
+              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:58:32.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\ApplicationDBContext.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
+              "RelativeToolTip": "QLCB\\Models\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:56:53.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChuyenBay.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\ChuyenBay.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\ChuyenBay.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\ChuyenBay.cs",
+              "RelativeToolTip": "QLCB\\Models\\ChuyenBay.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvysAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T07:19:21.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SanBay.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\SanBay.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\SanBay.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\SanBay.cs",
+              "RelativeToolTip": "QLCB\\Models\\SanBay.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T02:17:14.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "NhanVien.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\NhanVien.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\NhanVien.cs",
               "RelativeDocumentMoniker": "QLCB\\Models\\NhanVien.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\NhanVien.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\NhanVien.cs",
               "RelativeToolTip": "QLCB\\Models\\NhanVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,16 +368,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "MayBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\MayBay.cs",
+              "DocumentMoniker": "E:\\QLCB\\QLCB\\QLCB\\Models\\MayBay.cs",
               "RelativeDocumentMoniker": "QLCB\\Models\\MayBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\MayBay.cs",
+              "ToolTip": "E:\\QLCB\\QLCB\\QLCB\\Models\\MayBay.cs",
               "RelativeToolTip": "QLCB\\Models\\MayBay.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:09:30.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T02:09:30.883Z"
             }
           ]
         }
