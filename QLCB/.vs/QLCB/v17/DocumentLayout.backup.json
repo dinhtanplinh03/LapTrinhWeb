@@ -1,38 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\phuon\\source\\repos\\QLCB\\",
+  "WorkspaceRootPath": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531080510_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250531080510_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\vebay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\vebay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\chuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\chuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\maybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\models\\maybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\maybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\models\\vebay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\vebay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QLCB\\Migrations\\20250531075832_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\controllers\\sanbaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\controllers\\sanbaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\source\\repos\\qlcb\\qlcb\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\views\\sanbay\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\sanbay\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\views\\maybay\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\maybay\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\views\\maybay\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\maybay\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\views\\maybay\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\maybay\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\views\\maybay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\views\\maybay\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\controllers\\maybaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\controllers\\maybaycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\repositories\\efmaybayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\repositories\\efmaybayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\repositories\\imaybayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\repositories\\imaybayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\repositories\\efsanbayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\repositories\\efsanbayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|c:\\users\\phuon\\onedrive\\m\u00E1y t\u00EDnh\\laptrinhweb\\qlcb\\qlcb\\repositories\\isanbayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4736E43A-DF1E-4B97-A649-88D6C9671302}|QLCB\\QLCB.csproj|solutionrelative:qlcb\\repositories\\isanbayrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,106 +82,186 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250531080510_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531080510_Initial.cs",
-              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250531080510_Initial.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531080510_Initial.cs",
-              "RelativeToolTip": "QLCB\\Migrations\\20250531080510_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:05:10.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VeBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\VeBay.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\VeBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\VeBay.cs",
-              "RelativeToolTip": "QLCB\\Models\\VeBay.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:04:13.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250531075832_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs",
-              "RelativeDocumentMoniker": "QLCB\\Migrations\\20250531075832_Initial.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Migrations\\20250531075832_Initial.cs",
-              "RelativeToolTip": "QLCB\\Migrations\\20250531075832_Initial.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:58:32.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ApplicationDBContext.cs",
-              "RelativeToolTip": "QLCB\\Models\\ApplicationDBContext.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvzoAAAADAAAAAAAAAA==",
+              "Title": "VeBay.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Models\\VeBay.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\VeBay.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Models\\VeBay.cs",
+              "RelativeToolTip": "QLCB\\Models\\VeBay.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:56:53.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChuyenBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ChuyenBay.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\ChuyenBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\ChuyenBay.cs",
-              "RelativeToolTip": "QLCB\\Models\\ChuyenBay.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvysAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:19:21.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SanBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\SanBay.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\SanBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\SanBay.cs",
-              "RelativeToolTip": "QLCB\\Models\\SanBay.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:17:14.134Z",
+              "WhenOpened": "2025-06-07T06:26:01.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "NhanVien.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\NhanVien.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\NhanVien.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\NhanVien.cs",
-              "RelativeToolTip": "QLCB\\Models\\NhanVien.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Edit.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\MayBay\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Edit.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\MayBay\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T08:23:57.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\MayBay\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Create.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\MayBay\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T08:23:41.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\MayBay\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Index.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\MayBay\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T01:25:40.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SanBayController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Controllers\\SanBayController.cs",
+              "RelativeDocumentMoniker": "QLCB\\Controllers\\SanBayController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Controllers\\SanBayController.cs",
+              "RelativeToolTip": "QLCB\\Controllers\\SanBayController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAwwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:13:34.238Z"
+              "WhenOpened": "2025-06-06T01:19:56.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanBay.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Models\\SanBay.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\SanBay.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Models\\SanBay.cs",
+              "RelativeToolTip": "QLCB\\Models\\SanBay.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:09:49.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MayBay.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Models\\MayBay.cs",
+              "RelativeDocumentMoniker": "QLCB\\Models\\MayBay.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Models\\MayBay.cs",
+              "RelativeToolTip": "QLCB\\Models\\MayBay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:22:45.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Program.cs",
+              "RelativeDocumentMoniker": "QLCB\\Program.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Program.cs",
+              "RelativeToolTip": "QLCB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:26:52.909Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MayBay.cs",
-              "DocumentMoniker": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\MayBay.cs",
-              "RelativeDocumentMoniker": "QLCB\\Models\\MayBay.cs",
-              "ToolTip": "C:\\Users\\phuon\\source\\repos\\QLCB\\QLCB\\Models\\MayBay.cs",
-              "RelativeToolTip": "QLCB\\Models\\MayBay.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\SanBay\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\SanBay\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\SanBay\\Create.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\SanBay\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T08:30:13.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Delete.cshtml",
+              "RelativeDocumentMoniker": "QLCB\\Views\\MayBay\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Views\\MayBay\\Delete.cshtml",
+              "RelativeToolTip": "QLCB\\Views\\MayBay\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T08:24:14.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MayBayController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Controllers\\MayBayController.cs",
+              "RelativeDocumentMoniker": "QLCB\\Controllers\\MayBayController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Controllers\\MayBayController.cs",
+              "RelativeToolTip": "QLCB\\Controllers\\MayBayController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T02:09:30.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-06T01:25:07.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EFMayBayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\EFMayBayRepository.cs",
+              "RelativeDocumentMoniker": "QLCB\\Repositories\\EFMayBayRepository.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\EFMayBayRepository.cs",
+              "RelativeToolTip": "QLCB\\Repositories\\EFMayBayRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:24:08.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMayBayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\IMayBayRepository.cs",
+              "RelativeDocumentMoniker": "QLCB\\Repositories\\IMayBayRepository.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\IMayBayRepository.cs",
+              "RelativeToolTip": "QLCB\\Repositories\\IMayBayRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:23:44.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EFSanBayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\EFSanBayRepository.cs",
+              "RelativeDocumentMoniker": "QLCB\\Repositories\\EFSanBayRepository.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\EFSanBayRepository.cs",
+              "RelativeToolTip": "QLCB\\Repositories\\EFSanBayRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:15:28.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ISanBayRepository.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\ISanBayRepository.cs",
+              "RelativeDocumentMoniker": "QLCB\\Repositories\\ISanBayRepository.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\M\u00E1y t\u00EDnh\\LapTrinhWeb\\QLCB\\QLCB\\Repositories\\ISanBayRepository.cs",
+              "RelativeToolTip": "QLCB\\Repositories\\ISanBayRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T01:07:35.759Z"
             }
           ]
         }

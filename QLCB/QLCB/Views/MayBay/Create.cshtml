@@ -1,0 +1,33 @@
+﻿@model QLCB.Models.MayBay
+
+@{
+    ViewData["Title"] = "Thêm máy bay";
+}
+
+<h2>Thêm máy bay</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="MaMayBay" class="control-label"></label>
+        <input asp-for="MaMayBay" class="form-control" />
+        <span asp-validation-for="MaMayBay" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LoaiMayBay" class="control-label"></label>
+        <input asp-for="LoaiMayBay" class="form-control" />
+        <span asp-validation-for="LoaiMayBay" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TamBay" class="control-label"></label>
+        <input asp-for="TamBay" class="form-control" />
+        <span asp-validation-for="TamBay" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,45 @@
+﻿@model QLCB.Models.SanBay
+
+@{
+    ViewData["Title"] = "Thêm sân bay";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="MaSanBay" class="control-label"></label>
+        <input asp-for="MaSanBay" class="form-control" />
+        <span asp-validation-for="MaSanBay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TenSanBay" class="control-label"></label>
+        <input asp-for="TenSanBay" class="form-control" />
+        <span asp-validation-for="TenSanBay" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ThanhPho" class="control-label"></label>
+        <input asp-for="ThanhPho" class="form-control" />
+        <span asp-validation-for="ThanhPho" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="QuocGia" class="control-label"></label>
+        <input asp-for="QuocGia" class="form-control" />
+        <span asp-validation-for="QuocGia" class="text-danger"></span>
+    </div>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

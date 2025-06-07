@@ -17,7 +17,7 @@ namespace QLCB.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.5")
+                .HasAnnotation("ProductVersion", "8.0.3")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -102,36 +102,24 @@ namespace QLCB.Migrations
 
             modelBuilder.Entity("QLCB.Models.HanhKhach", b =>
                 {
-                    b.Property<int>("MaHanhKhach")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaHanhKhach"));
+                    b.Property<string>("MaHanhKhach")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CMND")
                         .IsRequired()
-                        .HasMaxLength(12)
-                        .HasColumnType("nvarchar(12)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HoTen")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SoDienThoai")
                         .IsRequired()
-                        .HasMaxLength(15)
-                        .HasColumnType("nvarchar(15)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MaHanhKhach");
 
@@ -250,8 +238,8 @@ namespace QLCB.Migrations
                     b.Property<decimal>("GiaVe")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("HanhKhachMaHanhKhach")
-                        .HasColumnType("int");
+                    b.Property<string>("HanhKhachMaHanhKhach")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("MaChungNhan")
                         .IsRequired()
@@ -389,9 +377,7 @@ namespace QLCB.Migrations
 
                     b.HasOne("QLCB.Models.HanhKhach", "HanhKhach")
                         .WithMany()
-                        .HasForeignKey("HanhKhachMaHanhKhach")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("HanhKhachMaHanhKhach");
 
                     b.HasOne("QLCB.Models.MayBay", "MayBay")
                         .WithMany()
