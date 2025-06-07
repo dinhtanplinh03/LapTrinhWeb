@@ -16,6 +16,6 @@ namespace QLCB.Models
 		public int TamBay { get; set; }
 
 		// Navigation property
-		public ICollection<ChuyenBay> ChuyenBays { get; set; }
+		public ICollection<ChuyenBay>? ChuyenBays { get; set; }
 	}
 }

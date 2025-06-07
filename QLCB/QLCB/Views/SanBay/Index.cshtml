@@ -1,0 +1,38 @@
+﻿@model IEnumerable<QLCB.Models.SanBay>
+
+@{
+    ViewData["Title"] = "Danh sách sân bay";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm sân bay mới</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã sân bay</th>
+            <th>Tên sân bay</th>
+            <th>Thành phố</th>
+            <th>Quốc gia</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sb in Model)
+        {
+            <tr>
+                <td>@sb.MaSanBay</td>
+                <td>@sb.TenSanBay</td>
+                <td>@sb.ThanhPho</td>
+                <td>@sb.QuocGia</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@sb.MaSanBay" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@sb.MaSanBay" class="btn btn-sm btn-danger">Xoá</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

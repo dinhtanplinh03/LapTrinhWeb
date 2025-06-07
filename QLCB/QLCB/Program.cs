@@ -3,6 +3,7 @@ using QLCB.Models;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using QLCB.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,10 @@ builder.Services.AddControllersWithViews()
 // Kết nối database
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped < ISanBayRepository, EFSanBayRepository>();
+builder.Services.AddScoped < IMayBayRepository, EFMayBayRepository>();
+// Thêm các repository khác nếu cần
 
 // Đăng nhập bằng Cookie
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

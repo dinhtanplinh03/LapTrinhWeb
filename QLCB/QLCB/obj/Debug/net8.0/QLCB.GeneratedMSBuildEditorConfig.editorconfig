@@ -17,47 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QLCB
 build_property.RootNamespace = QLCB
-build_property.ProjectDir = E:\QLCB\QLCB\QLCB\
+build_property.ProjectDir = C:\Users\phuon\OneDrive\Máy tính\LapTrinhWeb\QLCB\QLCB\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\QLCB\QLCB\QLCB
+build_property.MSBuildProjectDirectory = C:\Users\phuon\OneDrive\Máy tính\LapTrinhWeb\QLCB\QLCB
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/QLCB/QLCB/QLCB/Views/Account/Login.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/Account/Register.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/Home/Index.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/ChuyenBay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/Home/Privacy.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/Shared/Error.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/MayBay/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/MayBay/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/MayBay/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/MayBay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF5QmF5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/SanBay/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuQmF5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/SanBay/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuQmF5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/SanBay/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuQmF5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/SanBay/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuQmF5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/_ViewImports.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/_ViewStart.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/QLCB/QLCB/QLCB/Views/Shared/_Layout.cshtml]
+[C:/Users/phuon/OneDrive/Máy tính/LapTrinhWeb/QLCB/QLCB/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1ijukti9rt

@@ -1,0 +1,32 @@
+﻿@model QLCB.Models.SanBay
+
+@{
+    ViewData["Title"] = "Xoá sân bay";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Bạn có chắc chắn muốn xoá sân bay sau?</h4>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Mã sân bay</dt>
+        <dd class="col-sm-10">@Model.MaSanBay</dd>
+
+        <dt class="col-sm-2">Tên sân bay</dt>
+        <dd class="col-sm-10">@Model.TenSanBay</dd>
+
+        <dt class="col-sm-2">Thành phố</dt>
+        <dd class="col-sm-10">@Model.ThanhPho</dd>
+
+        <dt class="col-sm-2">Quốc gia</dt>
+        <dd class="col-sm-10">@Model.QuocGia</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="MaSanBay" />
+        <button type="submit" class="btn btn-danger">Xoá</button>
+        <a asp-action="Index" class="btn btn-secondary">Huỷ</a>
+    </form>
+</div>

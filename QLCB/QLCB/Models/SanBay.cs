@@ -21,7 +21,7 @@ namespace QLCB.Models
 		public string QuocGia { get; set; }
 
 		// Navigation properties
-		public ICollection<ChuyenBay> ChuyenBaysDi { get; set; }
-		public ICollection<ChuyenBay> ChuyenBaysDen { get; set; }
+		public ICollection<ChuyenBay>? ChuyenBaysDi { get; set; }
+		public ICollection<ChuyenBay>? ChuyenBaysDen { get; set; }
 	}
 }

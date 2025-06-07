@@ -1,0 +1,45 @@
+﻿@model IEnumerable<QLCB.Models.MayBay>
+
+@{
+    ViewData["Title"] = "Danh sách Máy Bay";
+}
+
+<h2>Danh sách Máy Bay</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">➕ Thêm máy bay</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Mã Máy Bay</th>
+            <th>Loại Máy Bay</th>
+            <th>Tầm Bay (km)</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="4" class="text-center">Không có dữ liệu máy bay.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaMayBay</td>
+                    <td>@item.LoaiMayBay</td>
+                    <td>@item.TamBay</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaMayBay" class="btn btn-sm btn-warning">✏️ Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaMayBay" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc chắn muốn xóa máy bay này?');">🗑️ Xóa</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

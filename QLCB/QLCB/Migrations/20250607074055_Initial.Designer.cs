@@ -12,8 +12,8 @@ using QLCB.Models;
 namespace QLCB.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20250605130651_Init")]
-    partial class Init
+    [Migration("20250607074055_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
